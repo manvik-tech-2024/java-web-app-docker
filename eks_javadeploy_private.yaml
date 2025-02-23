@@ -16,8 +16,8 @@ spec:
       labels:
         app: javawebapp
     spec:
-	    imagePullSecrets:
-		    - name: dockerhubcred
+      imagePullSecrets:
+	- name: dockerhubcred
       containers:
         - name: javawebappcontainer
           image: vkrishna8/java-web-app-docker-private:IMAGE_TAG_PLACEHOLDER
